@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_cfugIJcHEeapz66J6DT1CQ">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_B1umoJefEeapz66J6DT1CQ" featurename="handlers" parentElementId="org.grits.toolbox.core.application">
+    <elements xsi:type="commands:Handler" xmi:id="_E1lC8JefEeapz66J6DT1CQ" elementId="org.grits.toolbox.importer.ms.handler.NewMS" contributionURI="bundleclass://org.grits.toolbox.importer.ms/org.grits.toolbox.importer.ms.handler.NewMSHandler" command="_M1rGAJefEeapz66J6DT1CQ"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_KdrT4JefEeapz66J6DT1CQ" featurename="commands" parentElementId="org.grits.toolbox.core.application">
+    <elements xsi:type="commands:Command" xmi:id="_M1rGAJefEeapz66J6DT1CQ" elementId="org.grits.toolbox.importer.ms.handler.NewMS" commandName="NewMS"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_dXXWsJefEeapz66J6DT1CQ" featurename="children" parentElementId="org.grits.toolbox.core.menu.main.grits.new">
+    <elements xsi:type="menu:HandledMenuItem" xmi:id="_iAmLoJefEeapz66J6DT1CQ" elementId="org.grits.toolbox.importer.ms.handledmenuitem.newms" label="MS Experiment" iconURI="platform:/plugin/org.grits.toolbox.entry.ms/icons/massspectrum.png" tooltip="Create a new MS entry" command="_M1rGAJefEeapz66J6DT1CQ"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_o0wnEJefEeapz66J6DT1CQ" featurename="children" parentElementId="org.grits.toolbox.core.menu.projectexplorer.popup.submenu.new">
+    <elements xsi:type="menu:HandledMenuItem" xmi:id="_qB_PMJefEeapz66J6DT1CQ" elementId="org.grits.toolbox.importer.ms.handledmenuitem.newms" label="MS Experiment" iconURI="platform:/plugin/org.grits.toolbox.entry.ms/icons/massspectrum.png" tooltip="Create a new MS Entry" command="_M1rGAJefEeapz66J6DT1CQ"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_pfae0CEhEee93_TNp1fXXA" featurename="children" parentElementId="org.grits.toolbox.core.toolbar.main">
+    <elements xsi:type="menu:HandledToolItem" xmi:id="_tGLxMCEhEee93_TNp1fXXA" elementId="org.grits.toolbox.importer.ms.handledtoolitem.newms" label="New MS" iconURI="platform:/plugin/org.grits.toolbox.entry.ms/icons/massspectrum.png" tooltip="Create a new Mass Spec Experiment" command="_M1rGAJefEeapz66J6DT1CQ"/>
+  </fragments>
+</fragment:ModelFragments>
